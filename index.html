@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -15,11 +15,10 @@
 </head>
 
 <body>
-
     <div class="container-xxl p-0 bg-white">
-        <!-- menu de navegacion -->
+        <!-- Navegacion -->
         <div class="container-xxl position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+            <nav class="navbar navbar-expand-lg navbar-dark sticky-lg-top bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
                     <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restaurante</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
@@ -29,111 +28,68 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="about.html" class="nav-item nav-link">Sobre nososotros</a>
-                        <a href="service.html" class="nav-item nav-link">Servicios</a>
-                        <a href="menu.html" class="nav-item nav-link">Menu</a>
+                        <a href="#about" class="nav-item nav-link active">Sobre nososotros</a>
+                        <a href="#service" class="nav-item nav-link">Servicios</a>
+                        <a href="#menu" class="nav-item nav-link">Menu</a>
                         <div class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
                                 Interes
                             </a>
                             <div class="dropdown-menu m-0">
-                                <a href="delivery.html" class="dropdown-item">delivery</a>
-                                <a href="team.html" class="dropdown-item">Equipo</a>
-                                <a href="event.html" class="dropdown-item">Eventos</a>
+                                <a href="#delivery" class="dropdown-item">delivery</a>
+                                <a href="#team" class="dropdown-item">Equipo</a>
+                                <a href="#event" class="dropdown-item">Eventos</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contactos</a>
+                        <a href="#footer" class="nav-item nav-link">Contactos</a>
                     </div>
                 </div>
             </nav>
 
-            <div class="hero-header container-xxl py-5 bg-dark  mb-5">
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container my-5 py-5">
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="text-white">Disfrute de nuestra<br>delicisa comida</h1>
-                            <p class="text-white mb-4 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rem ullam odit esse animi nihil magni accusamus asperiores adipisci voluptatum ipsam suscipit reprehenderit deleniti officiis ducimus, similique dolorum quisquam vero.</p>
-                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3">Reserva tu mesa</a>
+                            <h1 class="ff-title text-white fw-normal">Disfrute de nuestra<br>delicisa comida</h1>
+                            <p class="text-white mb-4 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laborum rem ullam odit esse animi nihil magni accusamus asperiores adipisci voluptatum
+                                ipsam suscipit reprehenderit deleniti officiis ducimus, similique dolorum quisquam vero.
+                            </p>
+                            <a href="#contact" class="btn btn-primary py-sm-3 px-sm-5 me-3">Reserva tu mesa</a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden"> <!-- overflow-hidden -->
-                            <img class="img-fluid" src="image/hero.png" alt="">
+                            <img class="img-fluid" src="image/plato-tipico.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- servicios -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-lg-3 col-sm-6" data-wow-delay="0.1s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
-                                <h5>Maestros de cocina</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6" data-wow-delay="0.3s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-                                <h5>Comida de calidad</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6" data-wow-delay="0.5s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
-                                <h5>Pedido en línea</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6" data-wow-delay="0.7s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
-                                <h5>Servicio 24/7</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- fin navegacion -->
 
         <!-- sobre nosotros -->
-         <div class="container-xxl py-5">
+        <section id="about" class="container-xxl py-5">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
                         <div class="row g-3">
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100"
-                                    src="image/about-1.jpg">
+                                <img class="img-fluid rounded w-100" src="image/about-1.jpg">
                             </div>
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75"
-                                    src="image/about-2.jpg" style="margin-top: 25%;">
+                                <img class="img-fluid rounded w-75" src="image/about-2.jpg" style="margin-top: 25%;">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75"
-                                        src="image/about-3.jpg">
-                                </div>
+                                <img class="img-fluid rounded w-75" src="image/about-3.jpg">
+                            </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-100"
-                                    src="image/about-4.jpg">
+                                <img class="img-fluid rounded w-100" src="image/about-4.jpg">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
-                        <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Restoran</h1>
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Sobre nosotros</h5>
+                        <h1 class="mb-4">Bienvenido a <i class="fa fa-utensils text-primary me-2"></i>Nuestro
+                            restaurante</h1>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
                             diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
@@ -145,8 +101,8 @@
                                     <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15
                                     </h1>
                                     <div class="ps-4">
-                                        <p class="mb-0">Years of</p>
-                                        <h6 class="text-uppercase mb-0">Experience</h6>
+                                        <p class="mb-0">Años de</p>
+                                        <h6 class="text-uppercase mb-0">Experiencia</h6>
                                     </div>
                                 </div>
                             </div>
@@ -156,44 +112,815 @@
                                     </h1>
                                     <div class="ps-4">
                                         <p class="mb-0">Popular</p>
-                                        <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                                        <h6 class="text-uppercase mb-0">Maestros de cocina</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fin sobre nosotros -->
+
+        <!-- servicios -->
+        <section id="service" class="container-xxl py-5">
+            <div class="container py-5">
+                <div class="text-center">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Servicios</h5>
+                    <h1 class="mb-5">Nuestros servicios</h1>
+                </div>
+                <div class="row g-5 py-3">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                                <h5>Maestros de cocina</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                                <h5>Comida de calidad</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                                <h5>Pedido en línea</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                                <h5>Servicio 24/7</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fin servicios -->
+
+        <!-- Menu -->
+        <section id="menu" class="container-xxl py-4">
+            <div class="container">
+                <div class="text-center">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Menú de comida</h5>
+                    <h1 class="mb-5">Artículos más populares</h1>
+                </div>
+                <div class="text-center">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start ms-0 pb-3 active" data-bs-toggle="pill"
+                                href="#tab-1">
+                                <i class="fa fa-coffee fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <h6 class="mt-n1 mb-0">Desayuno</h6>
+                                    <small class="text-body">Popular</small>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                                href="#tab-2">
+                                <i class="fa fa-hamburger fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <h6 class="mt-n1 mb-0">Almuerzo</h6>
+                                    <small class="text-body">Especial</small>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill"
+                                href="#tab-3">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <h6 class="mt-n1 mb-0">Cena</h6>
+                                    <small class="text-body">Deliciosa</small>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-1.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Hamburguesa de pollo</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-2.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Hamburguesa de carne</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-3.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Hamburguesa de vegetariana</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-4.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tranca pecho</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-5.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicharron de cerdo</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-6.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sajta de pollo</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-7.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Silpancho cochabambino</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-8.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fritanga mixta</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-1.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fricase al amanecer</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-2.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Lechon de cerdo</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-3.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Medio lomo</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-4.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-5.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pollo al horno</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-6.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pique Macho</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-7.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-8.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>planchitas</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-1.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pique Macho</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-2.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caldo de cardan</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-3.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-4.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-5.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-6.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-7.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="image/menu-8.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fin menu -->
+
+        <!-- equipo -->
+        <section id="team" class="container-xxl pt-5 pb-3">
+            <div class="container">
+                <div class="text-center">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Miembros del equipo</h5>
+                    <h1 class="mb-5">Muestros maestros cocineros</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="image/team-1.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Nombre Completo</h5>
+                            <small>Designacion</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="image/team-2.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Nombre Completo</h5>
+                            <small>Designacion</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="image/team-3.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Nombre Completo</h5>
+                            <small>Designacion</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="image/team-4.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Nombre Completo</h5>
+                            <small>Designacion </small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fin equipo -->
+
+        <!-- contactos y reservas -->
+        <section id="contact" class="container-xxl py-5 px-0">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="video">
+                        <img class="image-contact">
+                    </div>
+                </div>
+                <div class="col-md-6 bg-dark d-flex align-items-center">
+                    <div class="p-5">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Reservas</h5>
+                        <h1 class="text-white mb-4">Reserva tu mesa en linea</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <label for="name">Su nombre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <label for="email">Su correo electronico</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating date" id="date3" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" id="datetime"
+                                            placeholder="Date & Time" data-target="#date3"
+                                            data-toggle="datetimepicker" />
+                                        <label for="datetime">Fecha y hora</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="select1">
+                                            <option value="1">Persona 1</option>
+                                            <option value="2">Persona 2</option>
+                                            <option value="3">Persona 3</option>
+                                        </select>
+                                        <label for="select1">Numero de personas</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Special Request" id="message"
+                                            style="height: 100px"></textarea>
+                                        <label for="message">Solicitud especial</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Reservar ahora</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content rounded-0">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- 16:9 aspect ratio -->
+                            <div class="ratio ratio-16x9">
+                                <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                                    allowscriptaccess="always" allow="autoplay"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fin contactos y reservas -->
+
+        <!-- Eventos -->
+        <section id="event" class="evento seccion-clara">
+            <div class="text-center">
+                <h5 class="section-title ff-secondary text-center text-primary fw-normal">Eventos</h5>
+                <h1 class="mb-5">Acontecimientos que te pueden interesar!!!</h1>
+            </div>
+            <!-- carrusel -->
+            <div id="carouselExampleIndicators" class="carousel slide mb-5">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div id="delivery" class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <img class="evento-imagen rounded-circle" src="image/testimonial-1.jpg"
+                                alt="foto de evento1">
+                            <div class="d-flex align-items-start">
+                                <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                                <p class="evento-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Commodi,
+                                    repellendus?</p>
+                            </div>
+                            <div class="evento-info">
+                                <p class="cliente">Gino</p>
+                                <p class="cargo">Evento principal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img class="evento-imagen rounded-circle" src="image/testimonial-2.jpg"
+                                alt="foto de evento1">
+                            <p class="evento-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Commodi,
+                                repellendus?</p>
+                            <div class="evento-info">
+                                <p class="cliente">Maria</p>
+                                <p class="cargo">Evento principal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img class="evento-imagen rounded-circle" src="image/testimonial-3.jpg"
+                                alt="foto de evento1">
+                            <p class="evento-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Commodi,
+                                repellendus?</p>
+                            <div class="evento-info">
+                                <p class="cliente">Oscar</p>
+                                <p class="cargo">Evento principal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img class="evento-imagen rounded-circle" src="image/testimonial-4.jpg"
+                                alt="foto de evento1">
+                            <p class="evento-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Commodi,
+                                repellendus?</p>
+                            <div class="evento-info">
+                                <p class="cliente">Mario</p>
+                                <p class="cargo">Evento principal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+        <!-- fin de eventos -->
+
+        <!-- delivery -->
+        <section class="contacto seccion-oscura">
+            <div class="container">
+                <div class="container text-center rectangulo d-flex justify-content-evently">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            ¡Te lo llevamos!
+                        </div>
+                        <div class="col-12 col-md-4 descripcion">
+                            Contactame para llevar tu pedido donde quiera que te encuentres.
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="mailto:pedidosya@micorreo.com">
+                                <button type="button">
+                                    Delivery
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fin de contactos -->
+
+        <!-- pie de pagina -->
+        <div id="footer" class="container-fluid bg-dark text-light footer">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class=" col-lg-6 d-flex flex-column justify-content-between">
+                        <div class="row">
+                            <div class="col">
+                                <a href="" class="navbar-brand p-0">
+                                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restaurante</h1>
+                                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="row copyright text-center text-md-start mb-3 mb-md-0">
+                            <p>Aprendo y creo todos los dias. Creemos un proyecto juntos.</p>
+                            <spam class="col"> Creado por Guillermo Coila Cruz &copy; (2025) ,<br> All Right Reserved.
+                            </spam> <!-- &#169; -->
+                        </div>
+                        <div class="row text-center text-md-end">
+                            <div class="col text-end derechos-de-autor footer-menu">
+                                <a href="">Principal</a>
+                                <a href="">Cookies</a>
+                                <a href="">Ayuda</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-lg-6 col-md-6">
+                                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Compañia
+                                </h4>
+                                <a class="btn btn-link" href="">Acerca de</a>
+                                <a class="btn btn-link" href="">Contactos</a>
+                                <a class="btn btn-link" href="">Reservaciones</a>
+                                <a class="btn btn-link" href="">Politicas de privacidad</a>
+                                <a class="btn btn-link" href="">Terminos & Condiciones</a>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contactos
+                                </h4>
+                                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>La paz - Bolivia</p>
+                                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+091 675 67890</p>
+                                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@umsa.bo</p>
+                                <div class="d-flex pt-2">
+                                    <a class="btn btn-outline-light btn-social" href=""><i
+                                            class="fab fa-x-twitter"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i
+                                            class="fab fa-github"></i></a>
+                                    <a href="" class="btn btn-outline-light btn-social"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i
+                                            class="fab fa-youtube"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Atencion
+                                </h4>
+                                <h5 class="text-light fw-normal">Lunes - Sabado</h5>
+                                <p>09AM - 09PM</p>
+                                <h5 class="text-light fw-normal">Domingo</h5>
+                                <p>10AM - 08PM</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
+                                    Informacion
+                                </h4>
+                                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                                <!-- <div class="position-relative mx-auto" style="max-width: 400px;">
+                                    <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text"
+                                        placeholder="Correo electronico">
+                                    <button type="button"
+                                        class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Registrate</button>
+                                </div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!-- fin pie de pagina -->
 
-    <!-- pie de pagina -->
-     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
-        <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restaurante</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
-                </a>
-        <p class="text-center">Aprendo y creo todos los dias.<br>Creemos un proyecto juntos.</p>
-        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <i class="bi bi-twitter-x"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <i class="bi bi-github"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <i class="bi bi-linkedin"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <i class="bi bi-instagram"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <i class="bi bi-envelope"></i>
-            </a>
-        </div>
-        <div class="derechos-de-autor">Creado por Guillermo Coila Cruz (2025) &#169;</div>
-    </footer>
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
